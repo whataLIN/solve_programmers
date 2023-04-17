@@ -34,3 +34,7 @@ def solution(keymap, targets):
         answer.append(resultnum)
 
     return answer
+
+"""
+이경우 문자열을 돌면서 키패드에서 찾는거보단 키패드에 대한 정보를 아예 구축해놓는 게 더 빠름
+"""
